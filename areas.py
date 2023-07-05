@@ -49,7 +49,7 @@ def main():
            while (base_menor <= 0 or altura <= 0) or (base_maior <= 0):
             base_maior = float(input("digite o valor da base maior"))
             altura = float(input("digite o valor da altura"))
-            base_menor = float(input(("digite o valor da base menor"))
+            base_menor = float(input("digite o valor da base menor"))
            area = (base_maior + base_menor)*altura/2
            print(f"nome: trapezio, area: {area}")
         return area

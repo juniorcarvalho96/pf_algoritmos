@@ -1,6 +1,6 @@
 string = input("")
 lista = []
-op = string[6]
+op = string[6] 
 
 
 for i in range(len(string)):
